@@ -1,0 +1,9 @@
+.widget.box.workflow-current-stage {
+	margin: -10px;
+}
+.widget.box.workflow-current-stage .widget-content {
+	padding-top: 20px;
+}
+.widget.box.workflow-current-stage .widget-content a.more {
+	margin-top: 20px;
+}

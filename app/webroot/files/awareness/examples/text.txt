@@ -1,0 +1,22 @@
+Summary
+
+- You can use eramba but have no ownership of it.
+- Under certain terms, you are allowed to modify the source code for your own use.
+- You can’t distribute the software, its source code or derivative works.
+- You can’t rent or sell the software.
+- The copyright holders may not be held liable for anything & retain all copyright.
+
+Introduction
+This license describes the legal agreement (the “Agreement”), which you or the company or entity you represent (“Client” or “You”) accept by downloading, using or purchasing the software material which includes source code (the “Source Code”), artwork data, software tools (collectively, the “Software” or “eramba”).
+
+If you don’t agree with these Terms
+You are requested to promptly destroy or delete the software from your organisation in order to prevent unauthorised distributions.
+
+What you are allowed
+So as long you are not engaged with any support service provided by eramba Ltd you are free to modify the source code to your own benefit.
+
+What you are not allowed
+You, the company or entity you represent are not allowed to redistribute in any way the software. This includes the entire source code, parts of it or derivative works you might have developed based on eramba. You are not allowed to sell or rent this software to anyone.
+
+Liabilities
+ERAMBA LTD DISCLAIMS ALL WARRANTIES, BOTH EXPRESS IMPLIED, INCLUDING BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE WITH RESPECT TO THE SOFTWARE. THIS LIMITED WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION. ERAMBA LTD DOES NOT WARRANT THAT THE OPERATION OF THE SOFTWARE WILL BE ERROR FREE OR MEET YOUR SPECIFIC REQUIREMENTS. THE WARRANTY SET FORTH ABOVE IS IN LIEU OF ALL OTHER EXPRESS WARRANTIES WHETHER ORAL OR WRITTEN. THE AGENTS, EMPLOYEES, DISTRIBUTORS, AND DEALERS OF ERAMBA LTD ARE NOT AUTHORIZED TO MAKE MODIFICATIONS TO THIS WARRANTY, OR ADDITIONAL WARRANTIES ON BEHALF OF ERAMBA LTD.

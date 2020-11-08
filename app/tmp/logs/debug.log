@@ -1,0 +1,12 @@
+2019-10-22 16:16:00 Notice: Notice (8): Object of class HttpSocketResponse could not be converted to int in [/var/www/dev.eramba.org/eramba_community/app/Controller/UsersController.php, line 834]
+Trace:
+AppErrorHandler::handleError() - APP/Error/AppErrorHandler.php, line 227
+UsersController::sendLoginRequest() - APP/Controller/UsersController.php, line 834
+UsersController::login() - APP/Controller/UsersController.php, line 690
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+AppController::invokeAction() - APP/Plugin/Crud/Lib/CrudControllerTrait.php, line 31
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 109
+

@@ -1,0 +1,19 @@
+/**
+ * 
+ * Holds a static string representing the current version of YoonityJS
+ * 
+ * YoonityJS : MVC Framework for JavaScript FrontEnd Development (http://yoonityjs.org)
+ * Copyright (c) Viktor Huszár (http://viktor.huszar.sk)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Viktor Huszár (http://viktor.huszar.sk)
+ * @link          http://yoonityjs.org YoonityJS Project
+ * @package       YoonityJS
+ * @since         YoonityJS v 1.0.0
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
+ */
+
+VERSION: 1.3.2-eramba

@@ -1,0 +1,1 @@
+<?= __('Someone is testing email settings at eramba - if you are able to see this email is probably because things are working well.'); ?>

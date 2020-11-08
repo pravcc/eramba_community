@@ -1,0 +1,76 @@
+.widget-dashboard.box .widget-content.widget-deeper {
+	box-shadow: none;
+}
+.widget-dashboard .divider {
+	border-top: 0;
+}
+
+.table-dashboard thead>tr>th>.dashboard-section-cell {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.table-dashboard thead>tr>th>.dashboard-section-cell i {
+	font-size: 14px;
+	margin-right: 5px;
+	color: #6f6f6f;
+}
+
+.table-dashboard thead>tr>th {
+	font-weight: bold;
+	border-bottom: 1px solid #ececec;
+}
+
+.table-dashboard thead>tr>th:not(:first-child),
+.table-dashboard tbody>tr>td:not(:first-child) {
+	text-align: center;
+}
+
+.table-dashboard tbody>tr>td {
+	border-top: 1px solid #ececec;
+}
+
+.table-dashboard tbody>tr>td:first-child {
+
+}
+
+.table-dashboard-admin tbody tr td:first-child {
+	width: 70%;
+}
+
+.table-dashboard-admin tbody tr td:last-child {
+	width: 15%;
+}
+
+.dashboard-sparkline {
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.table-dashboard thead>tr>th:last-child {
+    width: 20%;
+}
+.dashboard-full-size-table .table-dashboard thead>tr>th:last-child {
+    width: 10%;
+}
+.no-customizations {
+	opacity: 0.7;
+}
+
+.dashboard-has-threshold,
+.dashboard-has-threshold a,
+.dashboard-has-threshold .dropdown-toggle i:before {
+	color: white;
+	/*position: absolute;
+	height: 100%;
+	width: 5px;*/
+}
+.dashboard-has-threshold {
+	cursor: auto !important;
+}
+
+
+.table-dashboard .table-controls {
+	display: inline;
+}

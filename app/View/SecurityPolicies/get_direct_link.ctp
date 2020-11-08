@@ -1,0 +1,1 @@
+<input class="form-control" type="text" readonly syle="cursor:auto;" value="<?= $directLink; ?>">

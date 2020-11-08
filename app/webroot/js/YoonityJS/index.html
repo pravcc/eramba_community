@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="http://dev-yoonityjs.org/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YoonityJS - MVC Framework for JavaScript FrontEnd Development</title>
+
+	<link href="/favicon.png" type="image/x-icon" rel="icon"/>
+	<link href="/favicon.png" type="image/x-icon" rel="shortcut icon"/>
+
+	<!--<link rel="stylesheet" type="text/css" href="/Vendors/css/icons/icomoon/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="/Vendors/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="/Templates/css/components.css"/>-->
+
+	<!--<script type="text/javascript" src="/Vendors/js/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="/Vendors/js/core/jquery.min.js"></script>
+	<script type="text/javascript" src="/Vendors/js/core/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/Vendors/js/loaders/blockui.min.js"></script>-->
+	<script type="text/javascript" src="/Vendors/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/YoonityJS.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<button type="button" class="btn btn-primary btn-sm" 
+		data-yjs-request="crud/showForm" 
+		data-yjs-target="modal" 
+		data-yjs-refresh-success="parent" 
+		data-yjs-refresh-failure="parent" 
+		data-yjs-datasource-url="get::sectionItems/add" 
+		data-yjs-event-on="click"
+	>Add button example</button>
+
+	<button type="button" class="btn btn-primary btn-sm" 
+		data-yjs-request="example/index" 
+		data-yjs-target="modal" 
+		data-yjs-event-on="click"
+	>Example controller usage</button>
+
+	<div class="test_target"></div>
+	<div class="test_target"></div>
+</body>
+</html>

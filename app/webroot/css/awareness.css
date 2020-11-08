@@ -1,0 +1,273 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #555555;
+	font-size: 13px;
+	/*background-color: #f6f7f9;*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 18px;
+}
+
+.btn {
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	border-color: transparent !important;
+}
+.btn-lg {
+	padding: 10px 55px;
+}
+.btn-default {
+	background-color: #979fa5;
+	color: #ffffff !important;
+	font-size: 15px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: #AFB1B3;
+}
+.btn-danger {
+	background-color: #e85a5a;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+	background-color: #EA4545;
+}
+
+@media (min-width: 970px) {
+	.container {
+		max-width: 940px;
+	}
+}
+
+.awareness-title {
+	font-weight: 700;
+	color: #39414a;
+}
+.awareness-subtitle {
+	font-weight: 400;
+	color: #84898d;
+}
+.headings {
+	margin-bottom: 60px;
+}
+
+.main-container {
+}
+.awareness-header {
+	background-color: #2c3e50;
+	padding: 14px 0 19px 0;
+	margin-bottom: 40px;
+	position: relative;
+}
+.awareness-subheader {
+	background-color: #e6eaed;
+	padding: 31px 0;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 50px;
+}
+.logo {
+	text-align: center;
+}
+
+.training-list {
+	text-align: center;
+}
+.training-item-wrapper {
+	float: none;;
+	display: inline-block;
+	width: 49%;
+}
+.training-item {
+	background-color: #f5f7f8;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.training-item-header {
+	background-color: #c8d2e5;
+	background-repeat: no-repeat;
+	background-image: url("../img/awareness-training.png");
+	background-position: 20px center;
+	padding: 20px 65px;
+	margin: 0;
+	text-align: center;
+	color: #39414a;
+}
+.training-demo .training-item-header {
+	background-color: #e9e9e9;
+	background-image: none;
+}
+.training-item-content {
+	padding: 20px;
+	color: #646d78;
+	font-size: 14px;
+	text-align: left;
+}
+
+.awareness-wrapper {
+	text-align: center;
+}
+.video-wrapper {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.next-button-wrapper {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.questionnaire {
+	padding: 0 200px;
+	margin-bottom: 30px;
+}
+.questionnaire-question {
+	margin-bottom: 45px;
+}
+.question-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #39414a;
+}
+.question-subtitle {
+	font-size: 14px;
+	font-weight: 400;
+	color: #84898d;
+	margin-bottom: 25px;
+}
+.answer.correct {
+	color: rgb(36, 192, 36);
+}
+.answer.wrong {
+	color: rgb(255, 103, 103);
+}
+
+.validation-error {
+	color: red;
+}
+.radio+.radio {
+	margin-top: 0;
+}
+.questionnaire-radio {
+	position: relative;
+	padding: 5px 0 5px 35px;
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-weight: 400;
+	color: #646d78;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.questionnaire-radio .answer-append {
+	margin-left: 15px;
+}
+.questionnaire-radio .answer-append i.icon {
+	font-size: 15px;
+}
+.questionnaire-radio.correct-answer {
+	background-color: #d5f3d5;
+}
+.questionnaire-radio.correct-answer .answer-append {
+	color: #35cb35;
+}
+.questionnaire-radio.wrong-answer {
+	background-color: #fee3e3;
+}
+.questionnaire-radio.wrong-answer .answer-append {
+	color: #f43a3a;
+}
+.questionnaire-radio:before {
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -10px;
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	border: 1px solid #b6c5d4;
+}
+.questionnaire-radio.disabled {
+	cursor: auto;
+}
+.questionnaire-radio:after {
+	content: "";
+	position: absolute;
+	left: 9px;
+	top: 50%;
+	margin-top: -6px;
+	width: 12px;
+	height: 12px;
+	background-color: #768eab;
+	border-radius: 50%;
+	opacity: 0;
+}
+.questionnaire-radio:not(.disabled):hover:after {
+	opacity: 0.3;
+}
+.questionnaire-radio:not(.disabled):active:after {
+	opacity: 0.55;
+}
+.questionnaire-radio.radio-checked:after {
+	opacity: 1 !important;
+}
+.questionnaire-radio input {
+	visibility: hidden;
+}
+
+.text-file-wrapper  {
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin-bottom: 30px;
+}
+.text-file-wrapper iframe {
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	max-height: 600px;
+}
+
+.navbar-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.navbar-right > .user > a {
+	line-height: 66px;
+	color: #fff;
+	font-weight: 700;
+	height: 100px;
+}
+.nav .open > a,
+.navbar-right > .user > a:hover,
+.navbar-right > .user > a:active,
+.navbar-right > .user > a:focus {
+	background: rgba(255, 255, 255, 0.1);
+}
+.navbar-right > .user > a > span {
+	margin-left: 5px;
+}
+.navbar-right .dropdown-menu > li > a:hover,
+.navbar-right .dropdown-menu > li > a:active,
+.navbar-right .dropdown-menu > li > a:focus {
+	background: #2c3e50;
+}

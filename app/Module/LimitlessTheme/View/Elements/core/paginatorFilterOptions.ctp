@@ -1,0 +1,1 @@
+<?php $this->Paginator->options(array('url' => $data)); ?>

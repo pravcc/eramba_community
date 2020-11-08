@@ -1,0 +1,7 @@
+.portal-footer {
+	text-align: center;
+}
+
+.nav,.navbar-nav {
+	display: none !important;
+}

@@ -1,0 +1,6 @@
+<?php
+/**
+ * Override any configuration for the app here.
+ */
+$config = [];
+return $config;

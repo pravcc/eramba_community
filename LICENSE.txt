@@ -1,0 +1,15 @@
+User License
+
+Summary:
+- This software is produced and distributed by eramba limited, a company incorporated in the United Kingdom, you hold no ownership of it.
+- We let you use this software perpetually
+- Under certain terms, you are allowed to modify the source code for your own use
+- You can't distribute this code or derivative works
+- The copyright holders may not be held liable for anything & retain all copyright
+- eramba limited is not responsible for the damages this software might cause you or others
+- We might change this terms and you might not be notified
+
+This is a simplified text of our license, read the full license at:
+http://www.eramba.org/community_tc
+
+If you are not able to read the full lincese DONT use this software and contact support@eramba.org.

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^(65fd1abc0f306766f15a79eda8b56b172b118a067fcbcde43ade93b30cbe10c0\.txt) - [L]
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>

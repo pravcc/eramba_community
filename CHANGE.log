@@ -1,0 +1,98 @@
+
+e1.0.6.017
+	- Fixes with ajax ui, auto complete for fields and quick add
+	- UX fixes and improvements
+	- Feature to Store filter's output over time
+	- New notification for filters sending attachments
+	- Feedback UX improved
+
+e1.0.6.016
+	- New filters
+	- LDAP connectors generally improved
+	- Awareness Programs improved
+	- UX improvements
+	- API for Security Incidents
+
+e1.0.6.015
+	- This update fixes notification's issue that slow down performance
+
+e1.0.6.014
+	- Added Import Tools Module
+	- Multiple bugfixes and improvements
+
+e1.0.6.013
+	- Updaes for System Notifications module
+	- Updates for Compliance Managtement
+
+e1.0.6.012
+	- Performance optimization for Security Services 
+
+e1.0.6.011
+	- PDF or CSV export using Filters now contains all data
+	- Fixed error while trying to save customized filters
+	- Security Service Audits now ordered by date
+	- General fixes and improvements
+
+e1.0.6.010
+	- New Custom Fields feature
+	- New advanced filters for Security Services, Audits and Maintenances
+	- Updated the documentation that covers theory around risk, compliance management, Third Party audits, Policy, Security Services and Awareness Programs.
+	- Changed the layout of audits under Security Services to make them easier to read
+	- Corrected a few bugs on the advanced filters at the Compliance Management section
+	- Corrected workflows on Third Party Audits
+
+e1.0.6.009
+	- Removed the SSL Checkbox on LDAP (is not necesary for TLS connections)
+	- Documented how to connect with LDAP TLS (LDAPS) to your AD directory
+	- Corrected some issues displaying compliance packages text
+
+e1.0.6.008
+	- Added System Record when Treatment Strategy for a Compliance Package Item Analysis is changed
+	- Fixed undefined variable issues for Compliance Analysis section
+	- Fixed Workflow grammar mistake
+	- Code corrections
+
+e1.0.6.007
+	- Additional Compliance Managements Filter configuration
+	- Added System Health check for working with Self Updates
+
+e1.0.6.006
+	- Performance optimization for Assets and Risk sections
+
+e1.0.6.005
+	- Added Advanced Filters feature - currently applied to Risk section
+	- Added Risk Calculation feature
+	- Uploads now allow .tar files
+	- PDF export fixed for Projects where project tasks could be missing
+	- General fixes
+
+e1.0.6.004
+	- This update is provided only to test out self-updates right after deployment to customers
+
+e1.0.6.003
+	- Added Self-update feature
+	- Added News feature
+	- Syntax fixes to support older PHP versions
+	- Reset database and Backup & Restore feature improved
+	- Optimized Security Policies index rendering
+	- Improved System Health checks
+	- Risk index fixes
+	- Compliance Analysis fixes in statuses being shown
+	- Audit fail notification fixes
+	- Compliance audit feedback notifications fixes
+	- CSS fixes for longer texts in Audits indexes
+
+e1.0.6.002
+	- Added LDAP user search instead of listing while creating a user
+	- Mime types for openoffice included for attachments 
+	- Fixed redirection error when editing a Compliance Package Item
+	- Fixed Program Health syntax to support older PHP versions
+	- Added string escaping for Compliance Analysis contents that could break
+	- Optimized dashboard db queries
+
+e1.0.6.001
+	- Added proxy settings for application to communicate - check updates, etc.
+	- Attachments now accept .zip files
+
+e1.0.6.000
+	- Enterprise release

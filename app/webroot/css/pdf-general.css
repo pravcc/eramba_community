@@ -1,0 +1,56 @@
+@page {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+@page :first {
+    margin-top: 0cm;
+}
+
+.container {
+	width: 1304px !important;
+}
+
+
+.pdf-content {
+	border: 1px solid #d8dce2;
+	border-bottom: none;
+}
+
+.pdf-header-wrapper {
+	background-color: #2c3e50;
+	padding: 0 0;
+}
+
+.pdf-footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+span.label {
+	display: inline-block;
+	border: 0;
+	font-size: 1em;
+}
+.alert {
+	border: 0;
+	padding: 18px 15px;
+	margin-bottom: 0;
+	border-top: 1px solid #d8dce2;
+	border-bottom: 1px solid #d8dce2;
+}
+.alert i {
+	display: none;
+}
+.bs-popover,
+.bs-tooltip {
+	cursor: auto;
+}
+.bs-popover i,
+.bs-tooltip i {
+	display: none;
+}
+.custom-padding {
+	padding: 0.9em 1.4em;
+}

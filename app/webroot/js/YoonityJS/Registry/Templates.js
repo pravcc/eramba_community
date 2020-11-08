@@ -1,0 +1,15 @@
+/**
+ * YoonityJS : MVC Framework for JavaScript FrontEnd Development (http://yoonityjs.org)
+ * Copyright (c) Viktor Huszár (http://viktor.huszar.sk)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Viktor Huszár (http://viktor.huszar.sk)
+ * @link          http://yoonityjs.org YoonityJS Project
+ * @package       YoonityJS.Registry
+ * @since         YoonityJS v 1.0.0
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
+ */
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('"1u 1f";a.1k({1b:\'10\',1d:{1i:5(z){4 9;B{1g:5(h){9=3;4 1a={10:G,1:G,e:[],o:[]};a.1e.1c.1h(3,1a,h)},1j:5(){B 3.1},1m:5(1,y){b(y){1=a.l.K(1);b(a.L.M){1+=\'?\'+a.l.w(\'N\')}p{1+=\'?\'+a.l.w(\'P\')}z.R({T:3,U:5(9,v){$.V({W:1,X:Y,Z:5(k){v.u({k:k})},Q:\'11\'})},u:5(9,h){9.1=h.k}})}p{3.1=1}},1n:5(2,6,8,y){b(y){6=a.l.K(6);b(a.L.M){6+=\'?\'+a.l.w(\'N\')}p{6+=\'?\'+a.l.w(\'P\')}z.R({T:3,U:5(9,v){$.V({W:6,X:Y,Z:5(k){v.u({6:{2:2,6:k,8:8?8:{}}})},Q:\'11\'})},u:5(9,h){9.e.F(h.6)}})}p{3.e.F({2:2,6:6,8:8?8:{}})}},1o:5(2,7){3.o.F({2:2,7:7})},O:5(){4 1=3.1;n(4 i=0;i<3.e.I;++i){4 2=3.e[i].2,6=3.e[i].6,8=3.e[i].8;n(4 r 16 8){b(8.17(r)){4 15=d c("{{"+r+"}}","g");6=6.f(15,8[r])}}4 j=d c("{{"+2+"}}","g");1=1.f(j,6)}3.1=1},14:5(){4 1=3.1;n(4 i=0;i<3.o.I;++i){4 2=3.o[i].2,7=3.o[i].7;b(1l.1p(7)){1=3.13(2,7,1)}p{4 j=d c("{{"+2+"}}","g");1=1.f(j,7)}}3.1=1},13:5(2,q,7){4 H=3.18(2,7);b(H!==""){4 D="";n(4 i=0;i<q.I;++i){4 t=H;n(4 x 16 q[i]){b(q[i].17(x)){4 j=d c("{{"+x+"}}","g");t=t.f(j,q[i][x])}}D+=t}4 C=d c("<!-- J "+2+" -->([\\\\s\\\\S]+?)<!-- E "+2+" -->","g");7=7.f(C,D)}B 7},18:5(2,7){4 C=d c("<!-- J "+2+" -->([\\\\s\\\\S]+?)<!-- E "+2+" -->","g"),12=d c("<!-- J "+2+" -->","g"),19=d c("<!-- E "+2+" -->","g"),m=7.1q(C),A="";b(m!==G){m=m.1r();A=m.f(12,\'\');A=m.f(19,\'\')}B A},1s:5(){z.1t(5(9){9.O();9.14()},3)}}}}});',62,93,'|layout|tag|this|var|function|element|content|replacements|_this|YoonityJS|if|RegExp|new|elements|replace||params||tagRegex|response|Globals|blockTemp|for|tags|else|data|rTag||blockNew|reaction|scope|createFileSuffix|key|fromServer|scopes|block|return|blockRegex|blockContent|END|push|null|blockOld|length|START|fwUrl|Config|useCache|app|_renderElements|timestamp|dataType|addScope||object|action|ajax|url|cache|true|success|Registry|html|blockStartRegex|_replaceBlockTags|_replaceTags|rTagRegex|in|hasOwnProperty|_getBlock|blockEndRegex|properties|namespace|InitProperties|class|Class|strict|constructor|call|Templates|getLayout|classFile|Array|setLayout|addElement|addTag|isArray|match|toString|processTemplate|addActionScope|use'.split('|'),0,{}))

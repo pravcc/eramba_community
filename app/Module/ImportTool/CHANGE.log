@@ -1,0 +1,10 @@
+1.0.2
+	- Fixed validation error labels behavior
+
+1.0.1
+	- Added detailed validation message for validation errors (where applicable)
+	- Added cache
+	- Fixed problems that happened while editing a Security Policy that was imported with Import Tool (related to Security Policy section)
+
+1.0.0
+	- Initial release

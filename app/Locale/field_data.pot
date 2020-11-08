@@ -1,0 +1,43 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:2
+msgid "FieldData Disabled"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:7
+msgid "FieldDataCollection List (%d)"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:11
+msgid "FieldData Form Variables"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:17
+msgid "Memory"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:20
+msgid "Total Memory Use"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:27
+msgid "Message"
+msgstr ""
+
+#: Module/FieldData/View/Elements/field_data_panel.ctp:27
+msgid "Memory use"
+msgstr ""
+

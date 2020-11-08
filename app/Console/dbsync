@@ -1,0 +1,15 @@
+#!/bin/bash
+Console/cake update deleteCache
+Console/cake visualisation compliance_sync
+Console/cake visualisation acl_sync
+Console/cake object_version add_versioning
+Console/cake data_asset add_instances
+Console/cake compliance_package sync_items
+Console/cake object_status sync_all_statuses
+Console/cake reports seed_reports
+Console/cake system sync_db
+if [[ $1 =~ ^(yes|y)$ ]]
+then
+	Console/cake dashboard sync
+fi
+Console/cake update cleanup

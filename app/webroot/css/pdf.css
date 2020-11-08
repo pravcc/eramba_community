@@ -1,0 +1,212 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #646d78;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 700;
+	margin: 0;
+	/*padding: 20px 30px;*/
+	padding: 1.4em 1em;
+  	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #4e515b;
+	font-size: 1.1em;
+	margin: 0;
+  	/*padding: 18px 30px;*/
+  	padding: 0.9em 1em;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #989fa7;
+	font-size: 0.9em;
+	margin: 0;
+  	padding: 0;
+  	text-transform: uppercase;
+}
+
+
+.header-separator {
+	height: 20px;
+  	width: 100%;
+  	background: #fff;
+}
+
+.header .title {
+	background: #2c3e50;
+  	/*height: 60px;*/
+}
+
+.header .subtitle, .custom-subtitle {
+	background: #e7ebec;
+	/*height: 55px;*/
+	padding: 0;
+}
+
+
+.body .item {
+	background: #f8fbfc;
+	border-bottom: 1px solid #d8dce2;
+}
+
+.separator {
+	height: 20px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #d8dce2;
+}
+
+.body .item table {
+	width: 100%;
+}
+
+.body .item table th {
+	font-family: 'Montserrat', sans-serif;
+	color: #989fa7;
+	font-size: 0.85em;
+  	text-transform: uppercase;
+  	padding: 0.9em 1.4em 0;
+  	vertical-align: top;
+  	border-left: 1px solid #d8dce2;
+}
+
+.body .item table.double-column th {
+	width: 50%;
+}
+
+.body .item table.double-column-uneven th:nth-child(1) {
+	width: 33.333%;
+}
+.body .item table.double-column-uneven th:nth-child(2) {
+	width: 66.666%;
+}
+
+.body .item table.triple-column th {
+	/*width: 33.333%;*/
+}
+
+.body .item table.tripple-column-uneven-small-middle th:nth-child(1) {
+	width: 33.33% !important;
+}
+.body .item table.tripple-column-uneven-small-middle th:nth-child(2) {
+	width: 16.67% !important;
+}
+.body .item table.tripple-column-uneven-small-middle th:nth-child(3) {
+	width: 50% !important;
+}
+
+.body .item table.triple-column-uneven th:nth-child(1),
+.body .item table.triple-column-uneven th:nth-child(2) {
+	width: 25%;
+}
+.body .item table.triple-column-uneven th:nth-child(3) {
+	width: 50%;
+}
+
+
+.body .item table.quadruple-column th {
+	width: 25%;
+}
+
+.body .item table.quadruple-column-uneven th:nth-child(1),
+.body .item table.quadruple-column-uneven th:nth-child(2),
+.body .item table.quadruple-column-uneven th:nth-child(3) {
+	width: 22%;
+}
+.body .item table.quadruple-column-uneven th:nth-child(4) {
+	width: 34%;
+}
+
+.body .item table.quintuple-column-uneven th:nth-child(1),
+.body .item table.quintuple-column-uneven th:nth-child(2) {
+	width: 30%;
+}
+.body .item table.quintuple-column-uneven th:nth-child(3),
+.body .item table.quintuple-column-uneven th:nth-child(4) {
+	width: 10%;
+}
+.body .item table.quintuple-column-uneven th:nth-child(5){
+	width: 20%;
+}
+
+
+.body .item table.decalogue-column th {
+	min-width: 9%;
+	padding: 15px 7px;
+	font-size: 0.65em;
+}
+.body .item table.decalogue-column tbody tr:first-child th {
+    border-bottom: 1px solid #d8dce2;
+}
+.body .item table.decalogue-column th:nth-child(1){
+    width: 11%;
+}
+.body .item table.decalogue-column th:nth-child(5){
+    width: 13%;
+}
+.body .item table.decalogue-column td {
+	padding: 15px 7px;
+}
+
+
+.body .item table.special-borders tr td {
+    border-bottom: 1px solid #d8dce2;
+}
+.body .item table.special-borders tr:last-of-type td {
+    border-bottom: 0;
+}
+/*.body .item table.special-borders tr {
+	border-top: 1px solid #d8dce2;
+}
+.body .item table.special-borders tr:nth-child(1),
+.body .item table.special-borders tr:nth-child(2) {
+	border-top: none;
+}*/
+
+.body .item table td {
+	font-size: 0.9em;
+	padding: 0.9em 1.4em;
+	vertical-align: top;
+	border-left: 1px solid #d8dce2;
+}
+
+.body .item table th:nth-child(1),
+.body .item table td:nth-child(1) {
+	padding-left: 1.4em;
+	border-left: none;
+}
+
+
+.table-pdf {
+	/*table-layout: fixed;
+	table-layout: fixed !important;*/
+}
+
+.item.item-no-border {
+	border-bottom: 0 !important;
+}
+.item .table-pdf-list td {
+	border-bottom: 1px solid #d8dce2;
+} 
+.table-pdf-system-records th,
+.table-pdf-system-records td {
+	/*width: 14.28571428571429%;*/
+}
+.table-pdf-system-records td {
+	border-bottom: 1px solid #d8dce2;
+}
+/*.table-pdf-system-records tr:last-child td {
+	border-bottom-width: 0;
+}*/
+/*.table-pdf-system-records th {
+	padding-bottom: 0.6em;
+}*/

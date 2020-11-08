@@ -1,0 +1,104 @@
+.document-modal .modal-body {
+	padding: 0;
+}
+.document-modal .modal-box {
+	padding: 15px 30px;
+	background-color: #f8fbfc;
+	border-bottom: 1px solid #d8dce2;
+}
+.document-modal .modal-bg {
+	background-color: #f8fbfc;
+	border-bottom: 1px solid #d8dce2;
+}
+.document-modal .modal-padding {
+	padding: 15px 30px;
+}
+.document-modal .modal-box h3, .document-modal .modal-bg h3, .document-modal .custom-title {
+	font-family: 'Montserrat', sans-serif;
+	color: #989fa7;
+	text-transform: uppercase;
+	font-size: 0.96em;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.document-modal .document-title {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.document-content {
+	position: relative;
+	padding: 30px 20px 30px 30px;
+	border-bottom: 1px solid #d8dce2;
+}
+#document-content-inner {
+	padding-right: 15px;
+}
+#document-content-inner table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+#document-content-inner table caption+thead tr:first-child td,
+#document-content-inner table caption+thead tr:first-child th,
+#document-content-inner table colgroup+thead tr:first-child td,
+#document-content-inner table colgroup+thead tr:first-child th,
+#document-content-inner table thead:first-child tr:first-child td,
+#document-content-inner table thead:first-child tr:first-child th {
+	border-top: 0;
+}
+#document-content-inner table thead tr th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+}
+#document-content-inner table tbody tr td,
+#document-content-inner table tbody tr th,
+#document-content-inner table tfoot tr td,
+#document-content-inner table tfoot tr th,
+#document-content-inner table thead tr td,
+#document-content-inner table thead tr th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+#document-content-inner table thead tr th,
+#document-content-inner table tbody tr th,
+#document-content-inner table tfoot tr th,
+#document-content-inner table thead tr td,
+#document-content-inner table tbody tr td,
+#document-content-inner table tfoot tr td {
+	border: 1px solid #ddd;
+}
+#document-content-inner table thead tr th,
+#document-content-inner table thead tr td {
+	border-bottom-width: 2px;
+}
+#document-content-inner table tbody tr:nth-child(odd) td,
+#document-content-inner table tbody tr:nth-child(odd) th {
+	background-color: #f9f9f9;
+}
+
+
+.document-modal .revision {
+	margin-bottom: 20px;
+}
+
+.document-modal button.close {
+	color: #ed7480;
+	margin-right: 7px;
+	position: relative;
+	margin-top: 2px !important;
+	font-size: 28px !important;
+	opacity: .5;
+
+	-webkit-transition: opacity 300ms;
+	-moz-transition: opacity 300ms;
+	-ms-transition: opacity 300ms;
+	-o-transition: opacity 300ms;
+	transition: opacity 300ms;
+}
+.document-modal button.close:hover {
+	opacity: .9;
+}

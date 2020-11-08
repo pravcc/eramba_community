@@ -1,0 +1,22 @@
+#!/bin/bash
+echo $1
+if [[ $1 = '-n' ]]
+then
+	response=y
+else
+	read -p "Are you sure you want to continue? DB will be completely reset! (yes) " response
+	response=${response:-y}
+fi
+
+if [[ $response =~ ^(yes|y)$ ]]
+then
+	echo "------"
+	echo "Sit back and relax ..."
+	echo "------"
+	Console/cake system reset_db
+	Console/cake3 migrations seed --seed=DemoSeed
+	echo "------"
+	echo "If you dont see any errors above, then its done."
+	echo "------"
+	echo ""
+fi
